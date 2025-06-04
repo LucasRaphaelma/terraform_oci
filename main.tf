@@ -109,7 +109,7 @@ resource "oci_core_route_table" "rt_cliente" {
   display_name   = "rt-cliente"
 
   # ⚠️ Comentado temporariamente para evitar ciclo de dependência
-  # Quando a VNIC LAN do pfSense já estiver criada, você pode ativar essa rota.
+  # Quando a VNIC LAN do pfSense já estiver criada, sera adicionado essa rota.
   #
   # route_rules {
   #   destination       = "0.0.0.0/0"
