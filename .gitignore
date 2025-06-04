@@ -1,0 +1,29 @@
+# 🌟 Ignorar arquivos de estado do Terraform (contêm credenciais e dados sensíveis)
+terraform.tfstate
+terraform.tfstate.backup
+
+# 🌟 Ignorar plano de execução do Terraform
+tfplan
+
+# 🌟 Ignorar variáveis privadas e de configuração
+terraform.tfvars
+
+# 🌟 Ignorar binários de Terraform ou outros binários de provisionamento
+*.zip
+*.exe
+
+# 🌟 Ignorar diretórios e arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# 🌟 Ignorar diretórios de dependências (Python, Node, etc.) se houver
+venv/
+node_modules/
+
+# 🌟 Ignorar arquivos de lock ou histórico de git (opcional)
+*.lock
+
+# 🌟 Ignorar arquivos de log e temporários
+*.log
+*.tmp
+
